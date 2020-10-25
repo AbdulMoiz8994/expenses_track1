@@ -30,17 +30,18 @@ const initialTrans=[
             },
           })
    }
-//    function delTransaction(id){
-//     dispatch({
-//         type: "DELETE_TRANSACTION",
-//         payload: id
-//     });
-// }
+   function delTransaction(id){
+    dispatch({
+        type: 'DELETE_TRANSCATION',
+        payloads: id
+    });
+}
    
    return(
        <TranscationsContext.Provider value={{
            Transcations: state,
            addTranscation,  
+           delTransaction
         }}>
             {children}
      </TranscationsContext.Provider>
