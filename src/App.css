@@ -1,0 +1,49 @@
+.container{
+  max-width: 400px;
+  height: auto !important;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  box-shadow: 0 0 15px grey;
+  margin-top: 50px;
+  
+}
+.text-center{
+  text-align: center;
+  font-weight: lighter;
+}
+.expense-container{
+  display: flex;
+  justify-content: space-around;
+ background-color: white;
+ box-shadow: 0 0 20px gray;
+ border-radius: 10px;
+  /* width: 300px; */
+  /* align-items: center; */
+  /* text-align: center; */
+}
+/* .transcation-from{
+   width: 100% !important;
+
+} */
+/* form{
+  width: 100%; */
+/* } */
+input{
+  width: 90%;
+  padding: 5px;
+  margin: 10px 0;
+}
+h4{
+  font-weight: lighter;
+}
+li{
+  text-align: center;
+   display: flex;
+   justify-content: space-between;  
+   margin-right: 30px !important;
+   padding: 10px 10px !important; 
+   background-color: white;
+   box-shadow: 0 0 10px grey;
+   margin: 10px 0;
+  border-radius: 10px;
+}
